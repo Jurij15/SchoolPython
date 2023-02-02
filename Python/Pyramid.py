@@ -3,7 +3,7 @@ inp = int(input("Enter a number..."))
 # These helped a bit
 # https://www.knowprogram.com/python/star-pattern-python-while-loop/,(pattern 5)
 # https://www.youtube.com/watch?v=P-mCpH5f3js
-# but i did not just copy/paste it
+# but I did not just copy/paste it
 
 rows = 0
 while rows < inp:

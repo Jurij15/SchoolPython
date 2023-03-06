@@ -1,3 +1,3 @@
 # SchoolPython
  
-Learning Python in School :-)
+Learning Python in School

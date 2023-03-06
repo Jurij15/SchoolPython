@@ -5,9 +5,9 @@ while rowCounter < side:
     columnCounter = 0
     while columnCounter < side:
         if (rowCounter + columnCounter) % 2 == 0:
-            print(" * ", end="")
+            print(" *", end="")
         else:
-            print(" 0 ", end="")
+            print(" 0", end="")
         columnCounter += 1
     rowCounter += 1
     print("")

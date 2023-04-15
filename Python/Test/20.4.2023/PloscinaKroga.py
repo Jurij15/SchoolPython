@@ -2,8 +2,8 @@
 
 import math
 
-radius = float(input("Vnesi polmer kroga: "))
+polmer = float(input("Vnesi polmer kroga: "))
 
-ploscina = math.pi * math.pow(radius, 2)
+ploscina = math.pi * math.pow(plmer, 2)
 
 print("Ploscina danega kroga je:", ploscina)

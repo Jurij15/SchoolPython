@@ -4,6 +4,6 @@ import math
 
 polmer = float(input("Vnesi polmer kroga: "))
 
-ploscina = math.pi * math.pow(plmer, 2)
+ploscina = math.pi * math.pow(polmer, 2)
 
 print("Ploscina danega kroga je:", ploscina)

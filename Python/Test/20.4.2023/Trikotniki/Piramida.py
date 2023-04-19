@@ -1,3 +1,12 @@
+"""
+    *
+   * *
+  * * *
+ * * * *
+* * * * * 
+"""
+
+
 visina = int(input("Vnesi visino: "))
 
 RowCounter = 0

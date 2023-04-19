@@ -1,4 +1,11 @@
 # Program, ki izrise pravokotni trikotnik iz zvezdic, na podlagi visine, ki jo vpise uporabnik
+"""
+*
+* *
+* * *
+* * * *
+* * * * *
+"""
 
 visina = int(input("Vnesi visino trikotnika: "))
 

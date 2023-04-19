@@ -2,7 +2,7 @@
 
 import math
 
-polmer = float(input("Vnesi polmer kroga: "))
+polmer = int(input("Vnesi polmer kroga: "))
 
 ploscina = math.pi * math.pow(polmer, 2)
 

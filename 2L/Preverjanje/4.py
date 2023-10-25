@@ -1,5 +1,5 @@
 
-#range(1, 11, 3)
+range(1, 11, 3)
 
 counter = 1
 while counter < 11:

@@ -1,0 +1,1 @@
+#napiši program, ki prebere vsa števila iz te datoteke. Izračunaj povprečje vseh števil. Zapiši števila, ki so nad povprečjem v datoteko nad_povprecjem.txt, in števila, ki so pod povprečjem, v pod_povprecjem.txt

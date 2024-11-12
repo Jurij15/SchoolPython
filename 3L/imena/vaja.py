@@ -22,3 +22,4 @@ def razdeli_po_povprecju():
                 nad_povprecjem_file.write(stevilo+"\n") 
     
 razdeli_po_povprecju()
+

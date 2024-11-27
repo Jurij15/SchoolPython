@@ -1,0 +1,1 @@
+napiši navodilo za nalogo v vsaki datoteki. v datoteki je rešitev naloge. napiši ga v enem stavku, če je to možno.

@@ -1,0 +1,8 @@
+import random
+
+N = int(input("vnesi stevilo metov: "))
+meti = []
+
+for i in range(N):
+    kocka1 = random.randint(1,6)
+    kocka2 = random.randint(1,6)

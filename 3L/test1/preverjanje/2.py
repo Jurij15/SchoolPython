@@ -12,8 +12,7 @@ for i in vrstice:
     temp.append( int(i.strip())) #lahko se doda tudi .strip(), ni pa nujno
 
 #naloga c)
-#povprecje
-n = 0
+ n = 0
 for i in range(len(temp)):
     n += temp[i]
 

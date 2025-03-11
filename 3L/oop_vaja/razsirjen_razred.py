@@ -13,7 +13,7 @@ class Papagaj:
 
 class GovoreciPapagaj(Papagaj):
     def __init__(self, ime,barva,starost, besede):
-        super().__init__(ime,barva starost)
+        super().__init__(ime,barva, starost)
         self.besede = besede
 
     def dodaj_besedo(self, nova_beseda):

@@ -1,0 +1,2 @@
+﻿"transportno sredstvo"
+"prevoz v službo"

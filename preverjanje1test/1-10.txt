@@ -1,0 +1,10 @@
+﻿1. A
+2. Pomnilniški naslov je podatek, ki pove, kje se določen podatek nahaja v pomnilniku. Pomemben je zato, ker lahko program dostopa do podatkov samo preko naslova.
+3. Podatek je zapisan na naslovu v pomnilniku.
+4. Lažje delo z funkcijami ter velikimi količinami podatkov, dinamično dodeljevanje pomnilnika.
+5. To pomeni, da se pri spremembi spremenljivke v funkciji spremeni originalna spremenljivka tudi izven funkcije.
+6. Sklad deluje po sistemu LIFO ter ne shranjuje velikih količin podatkov (samo lokalne spremenljivke), heap pa shranjuje velike količine podatkov.
+7. Lokalne spremenljivke se shranijo na stacku, dinamično dodeljni pa na heapu.
+8. To pomeni, da programer ne rabi ročno čistiti neuporabljenega pomnilnika.
+9.
+10. Razhroščevalnik uporabljamo, ko želimo vedeti, kaj točno program dela ter poznati vrednosti spremenljivk med izvajanjem.

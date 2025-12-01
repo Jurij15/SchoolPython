@@ -1,0 +1,9 @@
+﻿a)
+True
+False
+
+b)
+sklad deluje po sistemu LIFO.
+
+Funkcija preveri, ali je niz palindrom
+Sklad obrne niz, ker pop vraća elemente v obraten vrstnem redu.

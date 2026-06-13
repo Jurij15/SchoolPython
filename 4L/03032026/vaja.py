@@ -15,10 +15,55 @@ def sestej():
 
     result.config(text= sestevek)
 
+def odstej():
+    global stevilo1, stevilo2
+
+    if (stevilo1.get() == "") or (stevilo2.get() == ""):
+        messagebox.showerror("Napaka","Vnesi podatke!")
+        return
+    elif (int(stevilo1.get()) == 0) or (int(stevilo2.get())== 0):
+        messagebox.showerror("Napaka","Vnesi podatke!")
+        return
+
+    sestevek = (int(stevilo1.get())) - (int(stevilo2.get()))
+
+    result.config(text= sestevek)
+
+def zmnozi():
+    global stevilo1, stevilo2
+
+    if (stevilo1.get() == "") or (stevilo2.get() == ""):
+        messagebox.showerror("Napaka","Vnesi podatke!")
+        return
+    elif (int(stevilo1.get()) == 0) or (int(stevilo2.get())== 0):
+        messagebox.showerror("Napaka","Vnesi podatke!")
+        return
+
+    sestevek = (int(stevilo1.get())) * (int(stevilo2.get()))
+
+    result.config(text= sestevek)
+
+def deli():
+    global stevilo1, stevilo2
+
+    if (stevilo1.get() == "") or (stevilo2.get() == ""):
+        messagebox.showerror("Napaka","Vnesi podatke!")
+        return
+    elif (int(stevilo1.get()) == 0) or (int(stevilo2.get())== 0):
+        messagebox.showerror("Napaka","Vnesi podatke!")
+        return
+
+    if(stevilo2.get() == "0"):
+        return
+
+    sestevek = (int(stevilo1.get())) / (int(stevilo2.get()))
+
+    result.config(text= sestevek)
+
 # Ustvari okno, okvir in platno
 okno = tk.Tk()
 okno.title("Okno")
-okno.geometry("200x115")
+okno.geometry("800x240")
 
 stevilo1 = tk.StringVar()
 stevilo2 = tk.StringVar()
@@ -31,8 +76,14 @@ text2.grid(row=1, column=0)
 result = tk.Label(okno)
 result.grid(row=2, column=0)
 
-button = tk.Button(okno, text="Klikni", command = sestej, width=20)
-button.grid(row=3, column=0)
+sbutton = tk.Button(okno, text="Sestej", command = sestej, width=20)
+obutton = tk.Button(okno, text="Odstej", command = odstej, width=20)
+zbutton = tk.Button(okno, text="Zmnozi", command = zmnozi, width=20)
+dbutton = tk.Button(okno, text="Deli", command = deli, width=20)
+sbutton.grid(row=3, column=0)
+obutton.grid(row=3, column=1)
+zbutton.grid(row=3, column=2)
+dbutton.grid(row=3, column=3)
 
 # Zaženi dogodkovno zanko
 okno.mainloop()
